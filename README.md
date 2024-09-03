@@ -15,6 +15,10 @@ The Interface Segregation Principle aims to solve this problem by advocating for
 - **Enhanced Reusability**: Specific interfaces are more likely to be reused across different parts of a system or even in different projects.
 - **Reduced Coupling**: By adhering to ISP, you minimize the dependencies between classes, leading to a more loosely coupled system.
 
+# CLASS DIAGRAM
+![ClassDiagram](https://github.com/user-attachments/assets/84d364d0-b6da-4eaf-b9cb-f0032b895c60)
+
+
 ## Example Scenario
 
 Imagine a smart home system where various devices like lights, thermostats, cameras, and assistants implement a variety of functionalities such as turning on/off, adjusting brightness, detecting motion, recording video, and setting schedules.
