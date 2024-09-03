@@ -7,21 +7,15 @@ namespace UnitTests
         [TestMethod]
         public void SmartCamera_ShouldDetectMotion()
         {
-            // Arrange
-            var camera = new SmartCamera();
-
-            // Act and Assert
-            camera.DetectMotion();
+            var camera = new SmartCamera();  // Arrange
+            camera.DetectMotion();           // Act and Assert
         }
 
         [TestMethod]
         public void SmartCamera_ShouldRecordVideo()
         {
-            // Arrange
-            var camera = new SmartCamera();
-
-            // Act and Assert
-            camera.RecordVideo();
+            var camera = new SmartCamera();   // Arrange
+            camera.RecordVideo();             // Act and Assert
         }
     }
 
@@ -31,71 +25,50 @@ namespace UnitTests
         [TestMethod]
         public void SmartHomeAssistant_ShouldTurnOn()
         {
-            // Arrange
-            var assistant = new SmartHomeAssistant();
-
-            // Act and Assert
-            assistant.TurnOn();
+            var assistant = new SmartHomeAssistant();   // Arrange
+            assistant.TurnOn();                         // Act and Assert
         }
 
         [TestMethod]
         public void SmartHomeAssistant_ShouldTurnOff()
         {
-            // Arrange
-            var assistant = new SmartHomeAssistant();
-
-            // Act and Assert
-            assistant.TurnOff();
+            var assistant = new SmartHomeAssistant();    // Arrange
+            assistant.TurnOff();                         // Act and Assert
         }
 
         [TestMethod]
         public void SmartHomeAssistant_ShouldAdjustBrightness()
         {
-            // Arrange
-            var assistant = new SmartHomeAssistant();
-
-            // Act and Assert
-            assistant.AdjustBrightness();
+            var assistant = new SmartHomeAssistant();   // Arrange
+            assistant.AdjustBrightness();               // Act and Assert
         }
 
         [TestMethod]
         public void SmartHomeAssistant_ShouldSetTemperature()
         {
-            // Arrange
-            var assistant = new SmartHomeAssistant();
-
-            // Act and Assert
-            assistant.SetTemperature();
+            var assistant = new SmartHomeAssistant();   // Arrange
+            assistant.SetTemperature();                 // Act and Assert
         }
 
         [TestMethod]
         public void SmartHomeAssistant_ShouldSetSchedule()
         {
-            // Arrange
-            var assistant = new SmartHomeAssistant();
-
-            // Act and Assert
-            assistant.SetSchedule();
+            var assistant = new SmartHomeAssistant();  // Arrange
+            assistant.SetSchedule();                   // Act and Assert
         }
 
         [TestMethod]
         public void SmartHomeAssistant_ShouldDetectMotion()
         {
-            // Arrange
-            var assistant = new SmartHomeAssistant();
-
-            // Act and Assert
-            assistant.DetectMotion();
+            var assistant = new SmartHomeAssistant();  // Arrange
+            assistant.DetectMotion();                  // Act and Assert
         }
 
         [TestMethod]
         public void SmartHomeAssistant_ShouldRecordVideo()
         {
-            // Arrange
-            var assistant = new SmartHomeAssistant();
-
-            // Act and Assert
-            assistant.RecordVideo();
+            var assistant = new SmartHomeAssistant();  // Arrange
+            assistant.RecordVideo();                    // Act and Assert
         }
     }
 
@@ -105,31 +78,22 @@ namespace UnitTests
         [TestMethod]
         public void SmartLight_ShouldTurnOn()
         {
-            // Arrange
-            var light = new SmartLight();
-
-            // Act and Assert
-            light.TurnOn();
+            var light = new SmartLight();  // Arrange
+            light.TurnOn();               // Act and Assert
         }
 
         [TestMethod]
         public void SmartLight_ShouldTurnOff()
         {
-            // Arrange
-            var light = new SmartLight();
-
-            // Act and Assert
-            light.TurnOff();
+            var light = new SmartLight();     // Arrange
+            light.TurnOff();                  // Act and Assert
         }
 
         [TestMethod]
         public void SmartLight_ShouldAdjustBrightness()
         {
-            // Arrange
-            var light = new SmartLight();
-
-            // Act and Assert
-            light.AdjustBrightness();
+            var light = new SmartLight();  // Arrange
+            light.AdjustBrightness();      // Act and Assert
         }
     }
 
@@ -139,21 +103,15 @@ namespace UnitTests
         [TestMethod]
         public void SmartThermoStat_ShouldSetTemperature()
         {
-            // Arrange
-            var thermostat = new SmartThermoStat();
-
-            // Act and Assert
-            thermostat.SetTemperature();
+            var thermostat = new SmartThermoStat();  // Arrange
+            thermostat.SetTemperature();            // Act and Assert
         }
 
         [TestMethod]
         public void SmartThermoStat_ShouldSetSchedule()
         {
-            // Arrange
-            var thermostat = new SmartThermoStat();
-
-            // Act and Assert
-            thermostat.SetSchedule();
+            var thermostat = new SmartThermoStat();  // Arrange
+            thermostat.SetSchedule();                // Act and Assert
         }
     }
 }
